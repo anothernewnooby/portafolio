@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/HeadAstro.astro';
+import Header from '../components/Header.astro';
+import Home from '../components/Home.astro';
+import About from '../components/About.astro';
+import Projects from '../components/Projects.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+
+---
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
+
+<Layout title="Welcome to Astro.">
+	<main class="bg-indigo-50">
+		<Header/>
+		<Home/>		
+		<About />
+		<Projects/>		
+		<Contact/>
+		<Footer/>		
+	</main>
+</Layout>
+
+
